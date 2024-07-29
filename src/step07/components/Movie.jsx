@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export function Movie({id,year,title,summary,poster,genres}){
     return(
         <div className='movie'>
+            <Link to={`/detail?id=${id}`}>
             <img src={poster} alt={title} />
             <div className='movie_data'>
                 <h3 className='movie_title'>{title}</h3>
@@ -18,8 +19,8 @@ export function Movie({id,year,title,summary,poster,genres}){
                     )
                 }
                 </ul>
-
             </div>
+            </Link>
         </div>
     )
 }

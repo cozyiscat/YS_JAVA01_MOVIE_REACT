@@ -35,7 +35,6 @@ export function Home() {
       <div>
       <h1>Movie List(Home)</h1>
       <ul className='movies'>
-        <li>
           {
             movies.map(item=>{
              return(
@@ -50,7 +49,6 @@ export function Home() {
              );
             })
           }
-        </li>
       </ul>
       </div>
     )
