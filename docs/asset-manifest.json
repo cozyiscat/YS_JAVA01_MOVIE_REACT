@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/YS_JAVA01_MOVIE_REACT/static/css/main.f855e6bc.css",
+    "main.js": "/YS_JAVA01_MOVIE_REACT/static/js/main.2323b8f5.js",
+    "static/js/453.a120608d.chunk.js": "/YS_JAVA01_MOVIE_REACT/static/js/453.a120608d.chunk.js",
+    "index.html": "/YS_JAVA01_MOVIE_REACT/index.html",
+    "main.f855e6bc.css.map": "/YS_JAVA01_MOVIE_REACT/static/css/main.f855e6bc.css.map",
+    "main.2323b8f5.js.map": "/YS_JAVA01_MOVIE_REACT/static/js/main.2323b8f5.js.map",
+    "453.a120608d.chunk.js.map": "/YS_JAVA01_MOVIE_REACT/static/js/453.a120608d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.2323b8f5.js"
+  ]
+}
