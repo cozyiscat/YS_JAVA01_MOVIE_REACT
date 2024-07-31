@@ -1,6 +1,7 @@
 import './Movie.css';
 import { Link } from 'react-router-dom';
 
+//Home에서 읽은 데이터를 Props로 전달받아서 화면에 출력
 export function Movie({id,year,title,summary,poster,genres}){
     return(
         <div className='movie'>

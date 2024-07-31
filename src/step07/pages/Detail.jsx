@@ -9,10 +9,12 @@ export function Detail(){
     const location = useLocation();
     const navigate = useNavigate();
 
-    
+    //Movie로 부터 영화 id값 받기
     //id값 구하기
-    const quertParams = new URLSearchParams(location.search);
+    const quertParams = new URLSearchParams(location.search); 
+    //new URLSearchParams(location.search) => URL의 ?로 시작하는 부분을 객체로 변환
     const id = quertParams.get('id');
+    //id라는 이름을 가진 쿼리파라미터 값을 가져옴
 
     const fetchMovies =async()=>{
         try{
